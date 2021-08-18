@@ -1,1 +1,3 @@
-
+discord
+googletrans
+speech_recognition
