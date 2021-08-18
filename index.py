@@ -93,6 +93,6 @@ async def on_message(message):
         #help command
         if message.content.startswith('*help'):
           await message.channel.send(" ```*help - Displays the commands of ShabdKosh📚 \n*hello- Pops in to say Hi!📘 \n*lang - Displays the languages in ShabdKosh's pocket!📖 \n*tle \"sentence\" lang_code- Translates words from 100+ languages📗 \n*dt sentence - Detects the language of the sentence📙 \n*dict word - Displays the meaning of the word in English✨ \n*syn word - Gives synonyms of the word in English🔖 \n*ant word - Gives antonyms of the word in English📑 ``` ")
-
-my_secret = os.environ['TOKEN']
-client.run(my_secret)
+        
+        
+client.run(os.environ['TOKEN'])
